@@ -10,7 +10,7 @@ body {
     color: #6b6d6e;
     line-height: 1.8;
     font-family: trebuchet ms, helvetica, sans-serif;
-text-align: justify;
+    text-align: justify;
 }
 
 /* NavBar css start */
@@ -101,9 +101,11 @@ a {
 #cross-icon {
     display: none;
 }
-#cross{
+
+#cross {
     display: none;
 }
+
 .dropdown {
     background-color: #c86544;
     color: #6b6d6e;
@@ -328,17 +330,21 @@ footer {
     font-size: 18px;
     cursor: pointer;
 }
-#drop-program :hover{
+
+#drop-program :hover {
     /* background-color: #f47d7d; */
     color: #ec6f35;
 }
+
 .drop-p:hover #drop-program {
     display: block;
     background-color: rgb(249, 240, 236);
 }
-#drop-program :hover{
+
+#drop-program :hover {
     color: #ec6f35;
 }
+
 #pro {
     color: #6b6d6e;
 }
@@ -797,6 +803,7 @@ input {
         width: 102%;
         padding: 15px 40px;
     }
+
     /* #drop-program {
             width: 18%;
         min-width: 14%;
@@ -805,11 +812,11 @@ input {
     } */
     #drop-program {
         width: 18%;
-    min-width: 14%;
-    font-size: 18px;
-    cursor: pointer;
-}
-  
+        min-width: 14%;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -908,6 +915,7 @@ input {
         padding: 0px 21px;
         flex-wrap: wrap;
     }
+
     .container-1 {
         /* width: 111%; */
         width: 99%;
@@ -916,6 +924,7 @@ input {
         place-items: center;
         gap: 20px;
     }
+
     .Main-box-ptag {
         gap: 33px;
         font-size: 18px;
@@ -933,19 +942,22 @@ input {
     .form {
         width: 100%;
     }
-    
+
 }
+
 @media screen and (max-width: 710px) {
     .food {
         display: flex;
         margin-top: 34px;
         flex-direction: column;
     }
+
     .container8 {
         width: 100%;
         height: 236px;
     }
 }
+
 @media screen and (max-width: 700px) {
     .nvabar-box {
         padding: 20px 80px;
@@ -1019,10 +1031,12 @@ input {
     .contac-div1 {
         width: 96%;
     }
+
     .logo-img {
         width: 252px;
         height: 120px;
     }
+
     .nav {
         padding: 22px;
         list-style: none;
@@ -1112,13 +1126,16 @@ input {
         padding: 20px;
         width: 100%;
     }
+
     #box7 {
         font-size: 24px;
     }
+
     .box1 {
         padding-top: 0px;
         margin-left: 0px;
     }
+
     #drop {
         display: none;
     }
@@ -1201,17 +1218,19 @@ input {
         margin-top: 47px;
         gap: 7px;
     }
-.main-container {
-    /* padding: 9px 26px; */
-    padding: 8px 46px;
 
-}
-#drop-program {
-    width: 34%;
-    min-width: 14%;
-    font-size: 18px;
-    cursor: pointer;
-}
+    .main-container {
+        /* padding: 9px 26px; */
+        padding: 8px 46px;
+
+    }
+
+    #drop-program {
+        width: 34%;
+        min-width: 14%;
+        font-size: 18px;
+        cursor: pointer;
+    }
 
 }
 
@@ -1291,6 +1310,7 @@ input {
     footer {
         padding: 10px 0px;
     }
+
     #drop-program {
         width: 37%;
         min-width: 14%;
@@ -1308,7 +1328,7 @@ input {
         width: 109%;
         padding-left: 0;
     }
-    
+
 
     /* .box1 {
         padding-top: 19px;
@@ -1410,11 +1430,13 @@ input {
         width: 99%;
         padding: 4px 45px 0px 3px;
     }
+
     .food {
-       
+
         margin-top: 37px;
-   
+
     }
+
     #drop-program {
         width: 35%;
     }
@@ -1482,10 +1504,12 @@ input {
     .container-contact {
         padding: 14px;
     }
+
     .food {
         margin-top: 30px;
-   
+
     }
+
     #drop-program {
         width: 37%;
     }
@@ -1540,11 +1564,13 @@ input {
     #box7 {
         font-size: 21px;
     }
+
     .food {
-      
+
         margin-top: 25px;
-      
+
     }
+
     #drop-program {
         width: 42%;
     }
